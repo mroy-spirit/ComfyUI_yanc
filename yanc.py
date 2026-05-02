@@ -22,14 +22,14 @@ import colorsys
 cat_smirk = "😼"
 
 yanc_root_name = "YANC"
-yanc_sub_image = "/" + cat_smirk + " Image"
-yanc_sub_text = "/" + cat_smirk + " Text"
-yanc_sub_basics = "/" + cat_smirk + " Basics"
-yanc_sub_nik = "/" + cat_smirk + " Noise Injection Sampler"
-yanc_sub_masking = "/" + cat_smirk + " Masking"
-yanc_sub_utils = "/" + cat_smirk + " Utils"
-yanc_sub_post_processing = "/" + cat_smirk + " Post Processing"
-yanc_sub_experimental = "/" + cat_smirk + " Experimental"
+yanc_sub_image = "/Image"
+yanc_sub_text = "/Text"
+yanc_sub_basics = "/Basics"
+yanc_sub_nik = "/Noise Injection Sampler"
+yanc_sub_masking = "/Masking"
+yanc_sub_utils = "/Utils"
+yanc_sub_post_processing = "/Post Processing"
+yanc_sub_experimental = "/Experimental"
 
 # ------------------------------------------------------------------------------------------------------------------ #
 # Functions                                                                                                          #
@@ -2427,60 +2427,60 @@ NODE_CLASS_MAPPINGS = {
 # A dictionary that contains the friendly/humanly readable titles for the nodes
 NODE_DISPLAY_NAME_MAPPINGS = {
     # Image
-    "> Rotate Image": cat_smirk + "> Rotate Image",
-    "> Scale Image to Side": cat_smirk + "> Scale Image to Side",
-    "> Resolution by Aspect Ratio": cat_smirk + "> Resolution by Aspect Ratio",
-    "> Load Image": cat_smirk + "> Load Image",
-    "> Save Image": cat_smirk + "> Save Image",
-    "> Load Image From Folder": cat_smirk + "> Load Image From Folder",
-    "> Normal Map Lighting": cat_smirk + "> Normal Map Lighting",
+    "Rotate Image":"Rotate Image",
+    "Scale Image to Side":"Scale Image to Side",
+    "Resolution by Aspect Ratio":"Resolution by Aspect Ratio",
+    "Load Image":"Load Image",
+    "Save Image":"Save Image",
+    "Load Image From Folder":"Load Image From Folder",
+    "Normal Map Lighting":"Normal Map Lighting",
 
     # Post Processing
-    "> Brightness": cat_smirk + "> Brightness",
-    "> Contrast": cat_smirk + "> Contrast",
-    "> Saturation": cat_smirk + "> Saturation",
-    "> Sharpen": cat_smirk + "> Sharpen",
-    "> Divide Channels": cat_smirk + "> Divide Channels",
-    "> Combine Channels": cat_smirk + "> Combine Channels",
-    "> Edge Enhance": cat_smirk + "> Edge Enhance",
-    "> Bloom": cat_smirk + "> Bloom",
-    "> Blur": cat_smirk + "> Blur",
-    "> Vignette": cat_smirk + "> Vignette",
-    "> Fog": cat_smirk + "> Fog",
-    "> Scanlines": cat_smirk + "> Scanlines",
-    "> RGB Shift": cat_smirk + "> RGB Shift",
-    "> Film Grain": cat_smirk + "> Film Grain",
-    "> HUE": cat_smirk + "> HUE",
-    "> Lens Distortion": cat_smirk + "> Lens Distortion",
+    "Brightness":"Brightness",
+    "Contrast":"Contrast",
+    "Saturation":"Saturation",
+    "Sharpen":"Sharpen",
+    "Divide Channels":"Divide Channels",
+    "Combine Channels":"Combine Channels",
+    "Edge Enhance":"Edge Enhance",
+    "Bloom":"Bloom",
+    "Blur":"Blur",
+    "Vignette":"Vignette",
+    "Fog":"Fog",
+    "Scanlines":"Scanlines",
+    "RGB Shift":"RGB Shift",
+    "Film Grain":"Film Grain",
+    "HUE":"HUE",
+    "Lens Distortion":"Lens Distortion",
 
     # Text
-    "> Text": cat_smirk + "> Text",
-    "> Text Combine": cat_smirk + "> Text Combine",
-    "> Text Pick Random Line": cat_smirk + "> Text Pick Random Line",
-    "> Clear Text": cat_smirk + "> Clear Text",
-    "> Text Replace": cat_smirk + "> Text Replace",
-    "> Text Random Weights": cat_smirk + "> Text Random Weights",
-    "> Text Pick Line by Index": cat_smirk + "> Text Pick Line by Index",
-    "> Text Count": cat_smirk + "> Text Count",
-    "> Save Text": cat_smirk + "> Save Text",
+    "Text":"Text",
+    "Text Combine":"Text Combine",
+    "Text Pick Random Line":"Text Pick Random Line",
+    "Clear Text":"Clear Text",
+    "Text Replace":"Text Replace",
+    "Text Random Weights":"Text Random Weights",
+    "Text Pick Line by Index":"Text Pick Line by Index",
+    "Text Count":"Text Count",
+    "Save Text":"Save Text",
 
     # Basics
-    "> Int to Text": cat_smirk + "> Int to Text",
-    "> Int": cat_smirk + "> Int",
-    "> Float to Int": cat_smirk + "> Float to Int",
+    "Int to Text":"Int to Text",
+    "Int":"Int",
+    "Float to Int":"Float to Int",
 
     # Noise Injection Sampler
-    "> NIKSampler": cat_smirk + "> NIKSampler",
-    "> Noise From Image": cat_smirk + "> Noise From Image",
+    "NIKSampler":"NIKSampler",
+    "Noise From Image":"Noise From Image",
 
     # Masking
-    "> Mask Curves": cat_smirk + "> Mask Curves",
-    "> Light Source Mask": cat_smirk + "> Light Source Mask",
+    "Mask Curves":"Mask Curves",
+    "Light Source Mask":"Light Source Mask",
 
     # Utils
-    "> Get Mean Color": cat_smirk + "> Get Mean Color",
-    "> RGB Color": cat_smirk + "> RGB Color",
+    "Get Mean Color":"Get Mean Color",
+    "RGB Color":"RGB Color",
 
     # Experimental
-    "> Layer Weights (for IPAMS)": cat_smirk + "> Layer Weights (for IPAMS)"
+    "Layer Weights (for IPAMS)":"Layer Weights (for IPAMS)"
 }
