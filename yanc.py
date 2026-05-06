@@ -22,14 +22,14 @@ import colorsys
 cat_smirk = "😼"
 
 yanc_root_name = "YANC"
-yanc_sub_image = "/Image"
-yanc_sub_text = "/Text"
-yanc_sub_basics = "/Basics"
-yanc_sub_nik = "/Noise Injection Sampler"
-yanc_sub_masking = "/Masking"
-yanc_sub_utils = "/Utils"
-yanc_sub_post_processing = "/Post Processing"
-yanc_sub_experimental = "/Experimental"
+yanc_sub_image = "/" + " Image"
+yanc_sub_text = "/" + " Text"
+yanc_sub_basics = "/" + " Basics"
+yanc_sub_nik = "/" + " Noise Injection Sampler"
+yanc_sub_masking = "/" + " Masking"
+yanc_sub_utils = "/" + " Utils"
+yanc_sub_post_processing = "/" + " Post Processing"
+yanc_sub_experimental = "/" + " Experimental"
 
 # ------------------------------------------------------------------------------------------------------------------ #
 # Functions                                                                                                          #
@@ -2427,60 +2427,60 @@ NODE_CLASS_MAPPINGS = {
 # A dictionary that contains the friendly/humanly readable titles for the nodes
 NODE_DISPLAY_NAME_MAPPINGS = {
     # Image
-    "Rotate Image":"Rotate Image",
-    "Scale Image to Side":"Scale Image to Side",
-    "Resolution by Aspect Ratio":"Resolution by Aspect Ratio",
-    "Load Image":"Load Image",
-    "Save Image":"Save Image",
-    "Load Image From Folder":"Load Image From Folder",
-    "Normal Map Lighting":"Normal Map Lighting",
+    "> Rotate Image": "> Rotate Image",
+    "> Scale Image to Side": "> Scale Image to Side",
+    "> Resolution by Aspect Ratio": "> Resolution by Aspect Ratio",
+    "> Load Image": "> Load Image",
+    "> Save Image": "> Save Image",
+    "> Load Image From Folder": "> Load Image From Folder",
+    "> Normal Map Lighting": "> Normal Map Lighting",
 
     # Post Processing
-    "Brightness":"Brightness",
-    "Contrast":"Contrast",
-    "Saturation":"Saturation",
-    "Sharpen":"Sharpen",
-    "Divide Channels":"Divide Channels",
-    "Combine Channels":"Combine Channels",
-    "Edge Enhance":"Edge Enhance",
-    "Bloom":"Bloom",
-    "Blur":"Blur",
-    "Vignette":"Vignette",
-    "Fog":"Fog",
-    "Scanlines":"Scanlines",
-    "RGB Shift":"RGB Shift",
-    "Film Grain":"Film Grain",
-    "HUE":"HUE",
-    "Lens Distortion":"Lens Distortion",
+    "> Brightness": "> Brightness",
+    "> Contrast": "> Contrast",
+    "> Saturation": "> Saturation",
+    "> Sharpen": "> Sharpen",
+    "> Divide Channels": "> Divide Channels",
+    "> Combine Channels": "> Combine Channels",
+    "> Edge Enhance": "> Edge Enhance",
+    "> Bloom": "> Bloom",
+    "> Blur": "> Blur",
+    "> Vignette": "> Vignette",
+    "> Fog": "> Fog",
+    "> Scanlines": "> Scanlines",
+    "> RGB Shift": "> RGB Shift",
+    "> Film Grain": "> Film Grain",
+    "> HUE": "> HUE",
+    "> Lens Distortion": "> Lens Distortion",
 
     # Text
-    "Text":"Text",
-    "Text Combine":"Text Combine",
-    "Text Pick Random Line":"Text Pick Random Line",
-    "Clear Text":"Clear Text",
-    "Text Replace":"Text Replace",
-    "Text Random Weights":"Text Random Weights",
-    "Text Pick Line by Index":"Text Pick Line by Index",
-    "Text Count":"Text Count",
-    "Save Text":"Save Text",
+    "> Text": "> Text",
+    "> Text Combine": "> Text Combine",
+    "> Text Pick Random Line": "> Text Pick Random Line",
+    "> Clear Text": "> Clear Text",
+    "> Text Replace": "> Text Replace",
+    "> Text Random Weights": "> Text Random Weights",
+    "> Text Pick Line by Index": "> Text Pick Line by Index",
+    "> Text Count": "> Text Count",
+    "> Save Text": "> Save Text",
 
     # Basics
-    "Int to Text":"Int to Text",
-    "Int":"Int",
-    "Float to Int":"Float to Int",
+    "> Int to Text": "> Int to Text",
+    "> Int": "> Int",
+    "> Float to Int": "> Float to Int",
 
     # Noise Injection Sampler
-    "NIKSampler":"NIKSampler",
-    "Noise From Image":"Noise From Image",
+    "> NIKSampler": "> NIKSampler",
+    "> Noise From Image": "> Noise From Image",
 
     # Masking
-    "Mask Curves":"Mask Curves",
-    "Light Source Mask":"Light Source Mask",
+    "> Mask Curves": "> Mask Curves",
+    "> Light Source Mask": "> Light Source Mask",
 
     # Utils
-    "Get Mean Color":"Get Mean Color",
-    "RGB Color":"RGB Color",
+    "> Get Mean Color": "> Get Mean Color",
+    "> RGB Color": "> RGB Color",
 
     # Experimental
-    "Layer Weights (for IPAMS)":"Layer Weights (for IPAMS)"
+    "> Layer Weights (for IPAMS)": "> Layer Weights (for IPAMS)"
 }
